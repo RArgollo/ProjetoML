@@ -1,0 +1,12 @@
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\bin\Debug\net6.0\ProjetoML.lib.deps.json
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\bin\Debug\net6.0\ProjetoML.lib.dll
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\bin\Debug\net6.0\ProjetoML.lib.pdb
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\ProjetoML.lib.csproj.AssemblyReference.cache
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\ProjetoML.lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\ProjetoML.lib.AssemblyInfoInputs.cache
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\ProjetoML.lib.AssemblyInfo.cs
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\ProjetoML.lib.csproj.CoreCompileInputs.cache
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\ProjetoML.lib.dll
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\refint\ProjetoML.lib.dll
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\ProjetoML.lib.pdb
+C:\Users\rafae\projetosDODEV\ProjetoML\ProjetoML.lib\obj\Debug\net6.0\ref\ProjetoML.lib.dll
