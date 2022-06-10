@@ -1,8 +1,7 @@
 namespace ProjetoML.lib.Models
 {
-    public class Transportadora
+    public class Transportadora : ModelBase
     {
-        public virtual int Id { get; set; }
         public virtual string Nome { get; set; }
         public virtual string Telefone { get; set; }
         public virtual string Email { get; set; }

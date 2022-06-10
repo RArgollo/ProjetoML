@@ -1,8 +1,7 @@
 namespace ProjetoML.lib.Models
 {
-    public class ProdutosXPedidos
+    public class ProdutosXPedidos : ModelBase
     {
-        public virtual int Id { get; set; }
         public virtual int IdProduto { get; set; }
         public virtual int IdPedido { get; set; }
         public virtual Pedido? Pedido { get; set; }

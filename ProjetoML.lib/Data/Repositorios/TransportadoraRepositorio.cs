@@ -1,7 +1,8 @@
+using ProjetoML.lib.Data.Interfaces;
 using ProjetoML.lib.Models;
 namespace ProjetoML.lib.Data.Repositorios
 {
-    public class TransportadoraRepositorio : RepositorioBase<Transportadora>
+    public class TransportadoraRepositorio : RepositorioBase<Transportadora>, IRepositorioBase<Transportadora>
     {
         private readonly MLContext _context;
         public TransportadoraRepositorio(MLContext context) : base(context, context.Transportadoras)

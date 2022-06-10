@@ -1,7 +1,8 @@
+using ProjetoML.lib.Data.Interfaces;
 using ProjetoML.lib.Models;
 namespace ProjetoML.lib.Data.Repositorios
 {
-    public class VendedorRepositorio : RepositorioBase<Vendedor>
+    public class VendedorRepositorio : RepositorioBase<Vendedor>, IRepositorioBase<Vendedor>
     {
         private readonly MLContext _context;
         public VendedorRepositorio(MLContext context) : base(context, context.Vendedores)

@@ -1,7 +1,8 @@
+using ProjetoML.lib.Data.Interfaces;
 using ProjetoML.lib.Models;
 namespace ProjetoML.lib.Data.Repositorios
 {
-    public class UsuarioRepositorio : RepositorioBase<Usuario>
+    public class UsuarioRepositorio : RepositorioBase<Usuario>, IRepositorioBase<Usuario>
     {
         private readonly MLContext _context;
         public UsuarioRepositorio(MLContext context) : base(context, context.Usuarios)

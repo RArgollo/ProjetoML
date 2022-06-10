@@ -1,8 +1,7 @@
 namespace ProjetoML.lib.Models
 {
-    public class Pedido
+    public class Pedido : ModelBase
     {
-        public virtual int Id { get; set; }
         public virtual DateTime DataPedido { get; set; }
         public virtual string Status { get; set; }
         public virtual int IdTransportadora { get; set; }

@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using ProjetoML.lib.Data.Interfaces;
+using ProjetoML.lib.Models;
+
 namespace ProjetoML.lib.Data.Repositorios
 {
-    public class RepositorioBase<T> where T : class
+    public class RepositorioBase<T> : IRepositorioBase<T> where T : ModelBase
     {
         private readonly MLContext _context;
         private readonly DbSet<T> _dbset;
@@ -18,7 +21,7 @@ namespace ProjetoML.lib.Data.Repositorios
 
         public T BuscarPorId(int id)
         {
-            return _dbset.Find(id);
+            return _dbset.AsNoTracking().First(x => x.Id == id);
         }
 
         public void Adicionar(T item)

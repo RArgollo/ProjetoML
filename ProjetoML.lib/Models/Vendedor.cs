@@ -1,8 +1,7 @@
 namespace ProjetoML.lib.Models
 {
-    public class Vendedor
+    public class Vendedor : ModelBase
     {
-        public virtual int Id { get; set; }
         public virtual string Nome { get; set; }
         public virtual string Email { get; set; }
         public virtual string CNPJ { get; set; }

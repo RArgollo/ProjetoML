@@ -12,6 +12,7 @@ builder.Services.AddScoped<PedidoRepositorio>();
 builder.Services.AddScoped<TransportadoraRepositorio>();
 builder.Services.AddScoped<UsuarioRepositorio>();
 builder.Services.AddScoped<VendedorRepositorio>();
+builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorioMongoDB>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
